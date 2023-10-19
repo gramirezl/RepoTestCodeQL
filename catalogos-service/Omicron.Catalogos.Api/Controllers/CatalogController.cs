@@ -42,6 +42,7 @@ namespace Omicron.Catalogos.Api.Controllers
         {
             var response = await this.catalogFacade.GetRoles();
             var algo = 5;
+            algo = algo;
             return this.Ok(response);
         }
 
