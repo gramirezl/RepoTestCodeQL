@@ -41,6 +41,7 @@ namespace Omicron.Catalogos.Api.Controllers
         public async Task<IActionResult> GetAllRoles()
         {
             var response = await this.catalogFacade.GetRoles();
+            var algo = 5;
             return this.Ok(response);
         }
 
